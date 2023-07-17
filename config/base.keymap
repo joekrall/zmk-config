@@ -177,15 +177,15 @@ ZMK_BEHAVIOR(bs_del, mod_morph,
     keep-mods = <MOD_RSFT>;
 )
 
-// tap: left-curly-brace | shft + tap: left-bracket
+// tap: left-bracket | shft + tap: left-curly-brace
 ZMK_BEHAVIOR(lbrc_lbkt, mod_morph,
-    bindings = <&kp LBRC>, <&kp LBKT>;
+    bindings = <&kp LBKT>, <&kp LBRC>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
 )
 
-// tap: right-curly-brace | shft + tap: right-bracket
+// tap: right-bracket | shft + tap: right-curly-brace
 ZMK_BEHAVIOR(rbrc_rbkt, mod_morph,
-    bindings = <&kp RBRC>, <&kp RBKT>;
+    bindings = <&kp RBKT>, <&kp RBRC>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
 )
 
